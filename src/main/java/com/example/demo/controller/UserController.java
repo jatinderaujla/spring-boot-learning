@@ -9,4 +9,9 @@ public class UserController {
     public String sayHi(){
         return "Hi";
     }
+
+    @GetMapping
+    public String sayHello(){
+        return "Hello";
+    }
 }
