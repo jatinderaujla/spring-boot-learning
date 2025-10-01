@@ -7,4 +7,8 @@ public class UserService {
     public String sayHi(){
         return "Hi";
     }
+
+    public String sayHello(){
+        return "Hello";
+    }
 }
